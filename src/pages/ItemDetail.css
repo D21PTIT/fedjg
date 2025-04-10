@@ -1,0 +1,59 @@
+.item-detail-container {
+  padding: 40px;
+  background-color: #f7f7f7;
+  min-height: 100vh;
+}
+
+.item-image-container {
+  text-align: center;
+}
+
+.item-image-container img {
+  transition: transform 0.3s ease;
+}
+
+.item-image-container:hover img {
+  transform: scale(1.05);
+}
+
+.ant-typography {
+  color: #2c3e50;
+}
+
+.ant-btn-primary {
+  background-color: #e74c3c !important;
+  border-color: #e74c3c !important;
+  font-family: 'Lora', serif;
+  font-weight: 500;
+}
+
+.ant-btn-primary:hover {
+  background-color: #c0392b !important;
+  border-color: #c0392b !important;
+}
+
+.ant-btn {
+  font-family: 'Lora', serif;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+.ant-btn:hover {
+  border-color: #3498db !important;
+  color: #3498db !important;
+}
+
+.custom-notification {
+  animation: slideIn 0.5s ease-in-out;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
